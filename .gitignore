@@ -1,0 +1,9 @@
+# Ignore the models directory.
+models
+
+# Ignore the images directory
+images
+
+# Python Related
+.venv
+

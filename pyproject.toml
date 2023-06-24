@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stable_diffion_env"
+version = "0.1.0"
+description = "A local setup for running Stable Diffusion on Apple Silicon"
+authors = ["Samuel Holloway <sholloway@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = ""
+keywords = ["stable diffusion"]
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+huggingface_hub = "^0.15.1"
+python-coreml-stable-diffusion = { git = "https://github.com/apple/ml-stable-diffusion.git", tag = "1.0.0" }
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
